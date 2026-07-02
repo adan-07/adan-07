@@ -7,7 +7,7 @@
 ## 🚀 About Me
 
 I build reliable AI agents and automated workflows that solve real business problems.  
-Hands-on experience designing agentic systems in **n8n (Cloud)** that integrate LLMs  
+Hands-on experience designing agentic systems in **n8n ** that integrate LLMs  
 with real business tools — Gmail, WhatsApp, and Google Sheets — using tool-calling  
 architectures and iterative testing to improve response reliability.
 
