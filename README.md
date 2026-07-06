@@ -2,7 +2,8 @@
 
 🤖 **AI Automation Engineer | Applied AI Developer**  
 📍 Gujranwala, Punjab, Pakistan  
-🎓 BSCS Student @ University of the Punjab 
+🎓 BSCS Student 
+ University of the Punjab 
 
 ## 🚀 About Me
 
