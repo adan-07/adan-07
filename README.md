@@ -47,7 +47,46 @@ architectures and iterative testing to improve response reliability.
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 --
+## 🤖 AI Automation Projects
 
+### 🍔 AI WhatsApp Food Ordering Bot
+> n8n (Cloud) · Google Gemini API · WhatsApp Business API · Google Sheets
+
+- End-to-end food ordering chatbot — customer chats on WhatsApp,  
+  AI handles intent, inventory check, FAQ, order logging automatically
+- Real-time inventory + order management via Google Sheets backend
+- Zero app download needed — works on existing WhatsApp
+- Practical small-business use case built entirely on free-tier tools
+### 🧠 AI Personal Assistant (Multi-Tool Reasoning Agent)
+> n8n (Cloud) · OpenAI API · Google Calendar · Gmail · Google Sheets
+
+- Chat-driven agent that reasons over tools to fetch live data
+- Integrated Gmail, Sheets, and Calendar APIs for real-time information retrieval
+### 📦 AI Inventory Management Agent
+> n8n (Cloud) · Google Gemini · Google Sheets
+
+- Natural language interface to read/update inventory (stock, pricing, adjustments)
+- Built entirely on free-tier APIs — no paid subscriptions required
+### 📧 AI Email Automation Agent
+> n8n (Cloud) · Google Gemini API · Gmail API
+
+- End-to-end pipeline: Gmail trigger → AI classification → contextual draft generation
+- Validated across 10–12 real email scenarios with 100% correct classification
+## 🏫 University Projects
+
+### 🚗 AutoHub — Car Showroom Management System
+> PHP · MySQL · Bootstrap · XAMPP
+
+- Multi-role web platform (Admin, Salesman, Mechanic, Customer)
+- Role-aware AI chatbot + normalized 3NF MySQL database
+
+### 📋 Attendance Management System
+> Python · Tkinter · SQLite · ReportLab
+
+- GUI desktop app managing attendance for 70 students
+- Auto weekend-skip + daily/monthly PDF reports
+
+-
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=adan-07&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
