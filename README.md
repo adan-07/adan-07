@@ -84,18 +84,3 @@
 
 <br>
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/adan-07/adan-07/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=adan-07&label=Profile%20Views&color=2575fc&style=for-the-badge" alt="profile views"/>
-</p>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=100&section=footer"/>
-</div>
