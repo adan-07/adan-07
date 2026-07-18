@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=Hi%20there,%20I'm%20Adan%20Mudassar%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?lines=AI+Automation+Engineer;Applied+AI+Developer;n8n+%2B+LLM+Workflow+Builder;Turning+manual+chaos+into+automated+magic.&font=Fira%20Code&center=true&width=600&height=45&color=2575fc&vCenter=true&size=22" alt="Typing SVG" />
-</a>
+<img src="./banner.svg?v=1" width="100%" alt="Adan Mudassar — AI Automation Engineer"/>
 
 </div>
 
