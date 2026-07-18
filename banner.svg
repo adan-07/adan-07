@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0221"/>
+      <stop offset="55%" stop-color="#1b0e3d"/>
+      <stop offset="100%" stop-color="#241654"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ec7"/>
+      <stop offset="100%" stop-color="#6a5af9"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6ec7" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6a5af9" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1200" height="460" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="460" fill="url(#bg)"/>
+
+    <!-- ambient sparkles -->
+    <g fill="#ff6ec7" opacity="0.7">
+      <circle cx="95" cy="30" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1120" cy="60" r="2.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="1060" cy="380" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="60" cy="400" r="2.2" fill="#6a5af9"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Greeting + Name -->
+    <text x="50" y="60" font-size="26" fill="#e6e1f5">Hi there, I'm 👋</text>
+    <text x="50" y="108" font-size="46" font-weight="700" fill="url(#nameGrad)" filter="url(#glow)">Adan Mudassar</text>
+    <text x="50" y="140" font-size="18" fill="#a9a3d1">🤖 AI Automation Engineer &#160;|&#160; Applied AI Developer</text>
+
+    <!-- Terminal window -->
+    <g transform="translate(50,165)">
+      <rect width="540" height="205" rx="14" fill="#120a29" stroke="#3a2a6b" stroke-width="1.5"/>
+      <rect width="540" height="30" rx="14" fill="#1c1140"/>
+      <rect y="16" width="540" height="14" fill="#1c1140"/>
+      <circle cx="20" cy="15" r="5.5" fill="#ff5f56"/>
+      <circle cx="40" cy="15" r="5.5" fill="#ffbd2e"/>
+      <circle cx="60" cy="15" r="5.5" fill="#27c93f"/>
+      <text x="270" y="20" font-size="12" fill="#7a739e" text-anchor="middle" font-family="monospace">adan@automation:~</text>
+
+      <g font-family="'Fira Code', monospace" font-size="14" fill="#c9c3e8">
+        <text x="20" y="58" fill="#7ee787">const</text>
+        <text x="70" y="58">engineer = {</text>
+        <text x="36" y="82">name: <tspan fill="#ffbd2e">"Adan Mudassar"</tspan>,</text>
+        <text x="36" y="106">role: <tspan fill="#ffbd2e">"AI Automation Engineer"</tspan>,</text>
+        <text x="36" y="130">stack: [<tspan fill="#ffbd2e">"n8n"</tspan>, <tspan fill="#ffbd2e">"LLMs"</tspan>, <tspan fill="#ffbd2e">"Python"</tspan>],</text>
+        <text x="36" y="154">mission: <tspan fill="#ffbd2e">"Turning manual</tspan></text>
+        <text x="70" y="174"><tspan fill="#ffbd2e">chaos into automated magic."</tspan></text>
+        <text x="20" y="196">}</text>
+        <rect x="34" y="184" width="9" height="16" fill="#7ee787">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- Node graph illustration: automation workflow -->
+    <g transform="translate(680,90)">
+      <text x="230" y="-30" font-size="14" fill="#a9a3d1" text-anchor="middle" letter-spacing="1">AGENTIC WORKFLOW</text>
+
+      <!-- connecting lines -->
+      <path id="p1" d="M 90 40 C 180 40 180 130 260 130" stroke="url(#lineGrad)" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+      <path id="p2" d="M 90 220 C 180 220 180 140 260 135" stroke="url(#lineGrad)" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+      <path id="p3" d="M 90 320 C 180 320 180 150 260 140" stroke="url(#lineGrad)" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+      <path id="p4" d="M 320 130 C 400 130 400 130 460 130" stroke="url(#lineGrad)" stroke-width="2" fill="none" stroke-dasharray="6 6"/>
+
+      <!-- moving pulses -->
+      <circle r="4" fill="#ff6ec7"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+      <circle r="4" fill="#6a5af9"><animateMotion dur="3.1s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+      <circle r="4" fill="#7ee787"><animateMotion dur="2.9s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+      <circle r="4" fill="#ffbd2e"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+
+      <!-- source nodes -->
+      <g font-size="13" fill="#e6e1f5" text-anchor="middle">
+        <circle cx="60" cy="40" r="32" fill="#1c1140" stroke="#ea4b71" stroke-width="1.5"/>
+        <text x="60" y="45">Gmail</text>
+
+        <circle cx="60" cy="220" r="32" fill="#1c1140" stroke="#25d366" stroke-width="1.5"/>
+        <text x="60" y="225">WhatsApp</text>
+
+        <circle cx="60" cy="320" r="32" fill="#1c1140" stroke="#0f9d58" stroke-width="1.5"/>
+        <text x="60" y="325">Sheets</text>
+
+        <!-- central AI agent node -->
+        <circle cx="290" cy="135" r="46" fill="#241654" stroke="url(#nameGrad)" stroke-width="2.5" filter="url(#glow)"/>
+        <text x="290" y="130" font-size="15" font-weight="700">AI</text>
+        <text x="290" y="148" font-size="12">Agent</text>
+
+        <!-- output node -->
+        <circle cx="490" cy="130" r="32" fill="#1c1140" stroke="#8e75b2" stroke-width="1.5"/>
+        <text x="490" y="126">Action</text>
+        <text x="490" y="140" font-size="10">Executed</text>
+      </g>
+    </g>
+
+    <!-- bottom divider -->
+    <line x1="50" y1="392" x2="1150" y2="392" stroke="#3a2a6b" stroke-width="1"/>
+
+    <!-- stats row -->
+    <g font-family="'Segoe UI', sans-serif" text-anchor="middle">
+      <g transform="translate(180,420)">
+        <text font-size="20" font-weight="700" fill="#ff6ec7">8+</text>
+        <text y="20" font-size="12" fill="#a9a3d1">Repos</text>
+      </g>
+      <g transform="translate(460,420)">
+        <text font-size="20" font-weight="700" fill="#6a5af9">34</text>
+        <text y="20" font-size="12" fill="#a9a3d1">Commits (last yr)</text>
+      </g>
+      <g transform="translate(740,420)">
+        <text font-size="20" font-weight="700" fill="#7ee787">2</text>
+        <text y="20" font-size="12" fill="#a9a3d1">Followers</text>
+      </g>
+      <g transform="translate(1020,420)">
+        <text font-size="20" font-weight="700" fill="#ffbd2e">46</text>
+        <text y="20" font-size="12" fill="#a9a3d1">Contributions</text>
+      </g>
+    </g>
+  </g>
+</svg>
